@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.CommandsScannerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-05-18T15:01:28.618Z" hostname="Mac" time="0.007">
+  <properties/>
+  <testcase name="nextInt_invalidInput_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextInt_parsesValidInteger()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextDouble_parsesValidDouble()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="constructor_withNullExitString_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.0"/>
+  <testcase name="nextFloat_parsesValidFloat()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextDouble_invalidInput_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.0"/>
+  <testcase name="constructor_withNullInput_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextLong_parsesValidLong()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.0"/>
+  <testcase name="nextLong_invalidInput_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextFloat_invalidInput_throws()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.0"/>
+  <testcase name="parse_allNumbers_correctTypes()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.001"/>
+  <testcase name="nextCommand_readsNormalLine()" classname="ru.se.ifmo.cli.CommandsScannerTest" time="0.0"/>
+  <system-out><![CDATA[18:01:28.619 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.620 [Test worker] WARN ru.se.ifmo.cli.CommandsScanner -- Failed to parse int from 'abc'
+18:01:28.620 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.620 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed int: 42
+18:01:28.620 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.621 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed double: 3.14
+18:01:28.622 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.622 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed float: 2.71
+18:01:28.622 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.623 [Test worker] WARN ru.se.ifmo.cli.CommandsScanner -- Failed to parse double from 'pi?'
+18:01:28.623 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.624 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed long: 9999999999
+18:01:28.624 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.624 [Test worker] WARN ru.se.ifmo.cli.CommandsScanner -- Failed to parse long from 'longval!'
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.625 [Test worker] WARN ru.se.ifmo.cli.CommandsScanner -- Failed to parse float from 'floatfail'
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed int: 42
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed double: 3.14
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed float: 2.71
+18:01:28.625 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Parsed long: 10000000000
+18:01:28.626 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- CommandsScanner initialized with exit string 'exit'
+18:01:28.626 [Test worker] DEBUG ru.se.ifmo.cli.CommandsScanner -- Received command input: 'hello'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

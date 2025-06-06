@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.CommandContainerImplTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-05-18T15:01:28.586Z" hostname="Mac" time="0.031">
+  <properties/>
+  <testcase name="register_duplicate_throwsException()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.019"/>
+  <testcase name="hashCode_differsForDifferentContents()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="equals_and_hashCode_workProperly()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="get_unknownCommand_throwsException()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="register_injectorThrows_exceptionPropagatedAsIllegalArgument()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="isEmpty_reflectsCommandState()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="forEach_appliesActionToAll()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="register_nullCommandName_throwsException()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="register_emptyCommandName_throwsException()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="contains_returnsCorrectResult()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="setAndGetProject_worksCorrectly()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="getNameByType_throwsIfTypeMissing()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="toString_containsCommandName()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="registerAndGetCommand_success()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.001"/>
+  <testcase name="equals_returnsFalseForDifferentContainers()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <testcase name="getNameByType_findsCorrectName()" classname="ru.se.ifmo.cli.CommandContainerImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

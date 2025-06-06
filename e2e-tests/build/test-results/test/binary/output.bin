@@ -1,0 +1,48 @@
+Z18:40:24.710 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.712 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.771 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.774 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.778 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.779 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.780 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.781 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.782 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.782 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.784 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.784 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.786 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.786 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.787 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.788 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.788 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.789 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.790 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.790 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.791 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.791 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.792 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.793 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.794 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.795 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.796 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.796 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+	Z18:40:24.797 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+	W18:40:24.797 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+	V18:40:24.798 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+	Z18:40:24.799 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+
+Z18:40:24.800 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+
+W18:40:24.800 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+
+V18:40:24.801 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+
+Z18:40:24.801 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.802 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.802 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.803 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.803 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+Z18:40:24.805 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+W18:40:24.805 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+V18:40:24.806 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+Z18:40:24.806 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete

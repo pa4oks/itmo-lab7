@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.ProjectImplTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-05-18T15:01:28.643Z" hostname="Mac" time="0.054">
+  <properties/>
+  <testcase name="equals_equalFields_returnsTrue()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.017"/>
+  <testcase name="constructor_assignsAllFields()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="hashCode_consistentWithEquals()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="constructor_nullCommandContainer_throws()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="equals_sameInstance_returnsTrue()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="constructor_nullCollectionController_throws()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="equals_differentCommandContainer_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="equals_differentParser_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="constructor_setsProjectInContainerImpl()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.022"/>
+  <testcase name="constructor_nullDatabaseController_throws()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.001"/>
+  <testcase name="constructor_nullParser_throws()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="equals_differentDbController_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="toString_containsAllFields()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.004"/>
+  <testcase name="equals_differentType_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.0"/>
+  <testcase name="equals_null_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.001"/>
+  <testcase name="equals_differentCollectionController_returnsFalse()" classname="ru.se.ifmo.cli.ProjectImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

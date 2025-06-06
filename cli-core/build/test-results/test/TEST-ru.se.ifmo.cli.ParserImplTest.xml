@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.ParserImplTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-05-18T15:01:28.626Z" hostname="Mac" time="0.016">
+  <properties/>
+  <testcase name="parse_actionReturnsNull_throwsNPE()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.002"/>
+  <testcase name="parse_unknownType_throwsUnsupportedOperation()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_enumValue_successfullyParsed()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="getProject_returnsConstructorArg()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_invalidTypeParsing_throwsIllegalArgument()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_commandMissing_throwsUnknownCommandException()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.0"/>
+  <testcase name="parse_tooFewArguments_throwsIllegalArgumentException()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_mixedValidAndInvalidCommands_failsAtInvalid()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="toString_returnsClassName()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_charInput_success()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_invalidEnumValue_throwsIllegalArgument()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.0"/>
+  <testcase name="parse_paramWithSpacesQuoted_shouldFail()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_commandWithParams_success()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_charInputFailsOnTooLongString()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_multipleCommandsSequentially_success()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_paramTrimmedProperly_success()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.001"/>
+  <testcase name="parse_singleCommandWithNoParams_success()" classname="ru.se.ifmo.cli.ParserImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

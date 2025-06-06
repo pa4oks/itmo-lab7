@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.TestDefaultCommand" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-05-18T15:01:28.698Z" hostname="Mac" time="0.006">
+  <properties/>
+  <testcase name="getActionParams_singleAction_returnsParams()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.001"/>
+  <testcase name="getAction_invalidParamType_returnsNull()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.001"/>
+  <testcase name="getAction_validParam_returnsAction()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.001"/>
+  <testcase name="equalsAndHashCode_byCommandName_works()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.0"/>
+  <testcase name="getAction_multipleCommandActions_throws()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.001"/>
+  <testcase name="getAction_noCommandAction_returnsNull()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.0"/>
+  <testcase name="toString_containsCommandName()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.0"/>
+  <testcase name="getCaption_returnsCorrectCaption()" classname="ru.se.ifmo.cli.TestDefaultCommand" time="0.0"/>
+  <system-out><![CDATA[18:01:28.700 [Test worker] WARN ru.se.ifmo.cli.DefaultCommand -- Invalid parameters passed to command 'sample'
+18:01:28.700 [Test worker] INFO ru.se.ifmo.cli.DefaultCommand -- Expected method signature: action([class java.lang.String])
+Usage: sample
+Called: text
+18:01:28.704 [Test worker] WARN ru.se.ifmo.cli.DefaultCommand -- No @CommandAction method found in NoActionCommand
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

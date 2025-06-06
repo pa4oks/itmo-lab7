@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.se.ifmo.cli.e2e.DemoAppE2ETest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-05-17T15:40:24.692Z" hostname="Mac" time="0.114">
+  <properties/>
+  <testcase name="hello_command_printsGreeting()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.085"/>
+  <testcase name="list_with_extra_argument_failsOrIgnores()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="list_without_add_returnsEmpty()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="unknown_command_printsWarningOrIgnores()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="hello_with_extra_argument_failsOrPrintsHelloAnyway()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.002"/>
+  <testcase name="add_without_argument_failsGracefully()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="add_duplicate_names_are_stored()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="add_empty_name_ignoredOrStored()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.002"/>
+  <testcase name="add_and_list_roundtrip()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.002"/>
+  <testcase name="multiple_hello_commands_repeatOutput()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.003"/>
+  <testcase name="add_single_entity_is_listed()" classname="ru.se.ifmo.cli.e2e.DemoAppE2ETest" time="0.002"/>
+  <system-out><![CDATA[18:40:24.710 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.712 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.771 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.774 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.778 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.779 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.780 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.781 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.782 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.782 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.784 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.784 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.786 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.786 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.787 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.788 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.788 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.789 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.790 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.790 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.791 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.791 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.792 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.793 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.794 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.795 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.796 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.796 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.797 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.797 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.798 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.799 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.800 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.800 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.801 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.801 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.802 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.802 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.803 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.803 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+18:40:24.805 [Test worker] INFO ru.se.ifmo.cli.Application -- Starting application launch
+18:40:24.805 [Test worker] DEBUG ru.se.ifmo.cli.Application -- Creating Guice injector
+18:40:24.806 [Test worker] INFO ru.se.ifmo.cli.Application -- Configuring application
+18:40:24.806 [Test worker] INFO ru.se.ifmo.cli.Application -- Application launch complete
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
